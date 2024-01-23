@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* WhatsApp background color */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+}
+
+header {
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-container {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    background-color: #dcf8c6; /* WhatsApp light green color */
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #128C7E; /* Darker shade for hover effect */
+}
+
+.logo {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.message.user {
+    background-color: #dcf8c6; /* User message color */
+}
+
+.message.bot {
+    background-color: #e0e0e0; /* Bot message color */
+}
